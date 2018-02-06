@@ -1,0 +1,249 @@
+/* ELEMENTS IN COMMON WITH ALL DISPLAY*/
+#btnLogOut,
+#btnStart {
+	float: right;
+}
+#divHeader li {
+	list-style: none;
+}
+#divFooter {
+	color: grey;
+	clear: both;
+}
+#divCantidadJugadores,
+#divNiveles,
+#divPreguntas,
+#divHeader, 
+#divPuntaje button, 
+#divAyuda button {
+	width: 100%;
+}
+#divCuadroTexto,
+#divCantidadJugadores,
+#divNiveles,
+#divJuego, 
+#divJuego table,
+#divFooter {
+	text-align: center;
+}
+#divCuadroTexto,
+#divPuntaje,
+#divCantidadJugadores {
+	margin: 3% auto;
+}
+
+/* Elements with a border */
+#divCuadroTexto,
+#divCantidadJugadores,
+#divNiveles,
+#divHeader {
+	border: 1px solid black;
+}
+#divCantidadJugadores {
+	height: auto;
+}
+#divNiveles { min-height: 100px; }
+
+#divJuego, 
+#divJuego table, 
+#divBody {
+	margin: 0 auto;
+}
+#divPuntaje button,
+#divAyuda button {
+	height: 100px;
+}
+
+#divPuntaje,
+#divAyuda {
+	min-width: 200px;
+}
+#divPuntaje,
+#divAyuda {
+	width: 70%;
+}
+#divAyuda {	margin: 10% auto; }
+
+#divCuadroTexto { height: 80%; }
+
+#divIniciarSesion {	margin: 5%;	}
+
+@media (max-width: 767px) {
+	
+	/* Elements with a width of 100% */
+	#divCuadroTexto,
+	#divBody,
+	#divFooter {
+		width: 100%;
+	}
+
+	#divHeader li {	text-align: center;	}
+
+	#btnStart {	margin-bottom: 5%; }	
+
+	.divPreguntas {	margin: 5% 0; }
+
+	/****************
+	* FONTS MOBILE *
+	****************/
+	#divCuadroTexto span,
+	#divButton span,
+	#divScore span, 
+	#divHeader #imagenLogo h1,
+	#divHeader h3,
+	#divFooter,
+	#divIniciarSesion,
+	#divIniciarSesion span,
+	#divPuntaje button,
+	#divAyuda button,
+	#btnPlay,
+	#divCantidadJugadores,
+	#divNiveles,
+	#divCrearUsuario, 
+	#divCrearUsuario span,
+	.check {
+		font-size: 1.65em;
+	}
+
+	#divCantidadJugadores h4, 
+	#divNiveles h4 {
+		font-size: 0.75em;
+	}
+
+	#divJuego h2,
+	#divJuego span {
+		font-size: 2.75rem;
+	} 
+
+	/* MOBILE FONTS ENDS HERE */
+
+	#divNiveles,
+	#divNombreJugador {
+		height: 20%;
+	}
+
+	#divPreguntas,
+	#divJuego form {
+		border-top: 1px dotted black;
+	}
+
+	#divJuego form { margin-top: 5%; }
+
+	.check input {
+		width: 5%;
+		height: 50px;
+	}
+
+	#divCrearUsuario {
+		margin: 5%;
+	}
+
+	#divIniciarSesion button, 
+	#divIniciarSesion input,
+	#divCrearUsuario button, 
+	#divCrearUsuario input  {
+		height: 40px;
+	}
+
+	#divCrearUsuario table td {	padding-top: 5%; }
+
+	#divCrearUsuario legend {
+		padding-bottom: 5%;
+		font-size: 1em;
+	}
+
+	#divHeader > ul	{
+		padding: 0;
+		margin: 0;
+	}
+
+	#divHeader li {	
+		margin: 0 auto;	
+		width: 50%;
+	}
+
+	#divHeader, 
+	#divHeader li { 
+		height: 100%;
+	}
+
+	#divHeader #imagenLogo h1,
+	#divHeader h3,
+	#divNiveles {
+		margin: 5% auto;
+	}
+
+	#divPuntaje,
+	#divAyuda {
+		height: 100px;
+	}
+
+	#divNiveles { min-width: 200px;	}
+
+
+	
+} /* Media max-width 767px ends here */
+@media (min-width: 768px) {
+	
+	#divCuadroTexto,
+	#divBody {
+		width: 70%;
+	}
+
+	#divCantidadJugadores {
+		min-width: 200px;
+		min-height: 100px;
+	}
+
+	#divFooter { margin: 0 auto; }
+
+	#divPreguntas {
+		height: 100px;
+	}
+
+
+
+	#divNiveles {
+		margin: 15% auto;
+		height: 10%;
+	}
+
+	#divScore  table {
+		margin: 5px auto;
+		width: 80%;
+	}
+
+	#divJuego td { padding: 5px; }
+
+	#divPreguntas {	margin-top: 5%;	}
+
+	#divHeader,
+	#divCuadroTexto  {
+		min-width: 300px;
+	}
+
+	#divHeader, 
+	#divPuntaje, 
+	#divAyuda {
+		height: 20%; 
+	}
+
+	#divHeader li {
+		width: 30%;
+		display: inline-block;
+	}
+
+	#divHeader #imagenLogo {
+		width: 15%;
+	}
+
+	#divFooter {
+		padding-top: 5px;
+		font-size: 70%;
+	}
+
+	#divCuadroTexto {
+		min-height: 200px;
+	}
+
+} /* Media min-width: 768px ends here */
